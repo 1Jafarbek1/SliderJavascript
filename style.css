@@ -33,7 +33,11 @@
 
 .sliderContainer .btn i {
     font-size: 50px;
-}
+    background: #CF0000;
+    background: linear-gradient(to right, #CF0000 0%, #00CF3E 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
 
 .sliderContainer .corausel {
     width: 300px;
